@@ -1,0 +1,11 @@
+let inputWidth;
+let inputHeight;
+let area;
+inputWidth = prompt("enter the width");
+inputHeight = prompt("enter the height");
+let Width = parseInt(inputWidth);
+let Height = parseInt(inputHeight);
+area = inputWidth * inputHeight;
+document.write("Width = " + Width + "<br>");
+document.write("Height =" + Height+"<br>");
+document.write("the area is = " + area);
